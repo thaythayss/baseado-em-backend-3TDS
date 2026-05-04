@@ -9,4 +9,6 @@ console.log(cardapio);
 
 const pedido = [];
 
-console.log(cadarpio[0].nome);
+console.log(cardapio[0].nome);
+console.log(cardapio[1].preco);
+console.log(cardapio[2].categoria);
