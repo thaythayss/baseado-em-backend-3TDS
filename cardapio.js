@@ -12,3 +12,16 @@ const pedido = [];
 console.log(cardapio[0].nome);
 console.log(cardapio[1].preco);
 console.log(cardapio[2].categoria);
+
+function exibirCardapio(lista) {
+    console.log("===Cardápio===");
+    console.log(`1.${lista[0].nome} - R$ ${lista[0].preco}`);
+    console.log(`2.${lista[1].nome} - R$ ${lista[1].preco}`);
+    console.log(`3.${lista[2].nome} - R$ ${lista[2].preco}`);
+    console.log(`5.${lista[3].nome} - R$ ${lista[3].preco}`);
+}
+
+function calcularTotal(listaPedido) {
+    let total = listaPedido[0].preco + listaPedido[1].preco
+    return total;
+}
