@@ -4,7 +4,7 @@
     "idade": 17,
     "curso": "Desenvolvimento de Sistemas",
     "notas": [8.5, 9.0, 7.5],
-    "bolsista": true,
+    "bolsista": false,
     "endereco": {
         "cidade": "Curitiba",
         "estado": "Paraná"
