@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "autor": "Thomaz Ferraz",
+        "texto": "Terminei o projeto da minha nova música. 🎶",
+        "publicado": true,
+        "data":"30/06/2026",
+        "metricas": {
+            "curtidas": 42,
+            "compartilhamentos": 8,
+            "vizualizacoes": 310
+        }
+    }
+]
